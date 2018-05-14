@@ -1,6 +1,6 @@
 package plugin.shops;
 
-import io.astraeus.game.event.Event;
+import io.titan.game.event.Event;
 
 public final class ShopEvent implements Event {
 	

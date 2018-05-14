@@ -3,11 +3,11 @@ package plugin.doors;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.DoorEvent;
-import io.astraeus.game.world.entity.mob.player.Player;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.DoorEvent;
+import io.titan.game.world.entity.mob.player.Player;
 
 @SubscribesTo(DoorEvent.class)
 public final class Doors implements EventSubscriber<DoorEvent> {

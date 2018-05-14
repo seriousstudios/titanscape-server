@@ -1,14 +1,14 @@
 package plugin.click.widget;
 
-import io.astraeus.cache.impl.def.ItemDefinition;
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.WidgetContainerFourthOptionEvent;
-import io.astraeus.game.world.entity.item.Item;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.PlayerRights;
-import io.astraeus.net.packet.out.ServerMessagePacket;
+import io.titan.cache.impl.def.ItemDefinition;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.WidgetContainerFourthOptionEvent;
+import io.titan.game.world.entity.item.Item;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.PlayerRights;
+import io.titan.net.packet.out.ServerMessagePacket;
 import plugin.shops.Shops;
 
 @SubscribesTo(WidgetContainerFourthOptionEvent.class)

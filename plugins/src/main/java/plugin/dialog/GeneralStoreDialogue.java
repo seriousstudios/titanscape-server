@@ -1,7 +1,7 @@
 package plugin.dialog;
 
-import io.astraeus.game.world.entity.mob.player.widget.dialog.Dialogue;
-import io.astraeus.game.world.entity.mob.player.widget.dialog.DialogueFactory;
+import io.titan.game.world.entity.mob.player.widget.dialog.Dialogue;
+import io.titan.game.world.entity.mob.player.widget.dialog.DialogueFactory;
 import plugin.shops.ShopEvent;
 
 public final class GeneralStoreDialogue extends Dialogue {

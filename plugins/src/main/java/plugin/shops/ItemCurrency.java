@@ -1,7 +1,7 @@
 package plugin.shops;
 
-import io.astraeus.game.world.entity.item.Item;
-import io.astraeus.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.item.Item;
+import io.titan.game.world.entity.mob.player.Player;
 
 /**
  * The currency that provides basic functionality for all tangible currencies.

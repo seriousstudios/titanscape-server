@@ -2,11 +2,11 @@ package plugin.buttons;
 
 import com.google.common.collect.ImmutableSet;
 
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.ButtonActionEvent;
-import io.astraeus.game.world.Position;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.TeleportType;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.ButtonActionEvent;
+import io.titan.game.world.Position;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.TeleportType;
 
 @SubscribesTo(ButtonActionEvent.class)
 public class SpellBookButtons extends ButtonClick {

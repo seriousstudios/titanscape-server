@@ -2,16 +2,16 @@ package plugin.event;
 
 import java.util.logging.Logger;
 
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.world.World;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.attr.AttributeKey;
-import io.astraeus.game.world.entity.mob.player.event.PostLoginEvent;
-import io.astraeus.game.world.entity.mob.player.event.RegisterPlayerEvent;
-import io.astraeus.game.world.entity.mob.update.UpdateFlag;
-import io.astraeus.util.LoggerUtils;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.world.World;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.attr.AttributeKey;
+import io.titan.game.world.entity.mob.player.event.PostLoginEvent;
+import io.titan.game.world.entity.mob.player.event.RegisterPlayerEvent;
+import io.titan.game.world.entity.mob.update.UpdateFlag;
+import io.titan.util.LoggerUtils;
 
 @SubscribesTo(RegisterPlayerEvent.class)
 public final class RegisterPlayerEventConsumer implements EventSubscriber<RegisterPlayerEvent> {

@@ -1,22 +1,22 @@
 package plugin.event;
 
-import io.astraeus.Configuration;
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.world.entity.mob.Movement;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.PlayerOption;
-import io.astraeus.game.world.entity.mob.player.Players;
-import io.astraeus.game.world.entity.mob.player.event.PostLoginEvent;
-import io.astraeus.net.packet.out.ResetCameraPositionPacket;
-import io.astraeus.net.packet.out.ServerMessagePacket;
-import io.astraeus.net.packet.out.SetPlayerOptionPacket;
-import io.astraeus.net.packet.out.SetPlayerSlotPacket;
-import io.astraeus.net.packet.out.SetPrivacyOptionPacket;
-import io.astraeus.net.packet.out.SetRunEnergyPacket;
-import io.astraeus.net.packet.out.SetSpecialAmountPacket;
-import io.astraeus.net.packet.out.SetWidgetConfigPacket;
+import io.titan.Configuration;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.world.entity.mob.Movement;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.PlayerOption;
+import io.titan.game.world.entity.mob.player.Players;
+import io.titan.game.world.entity.mob.player.event.PostLoginEvent;
+import io.titan.net.packet.out.ResetCameraPositionPacket;
+import io.titan.net.packet.out.ServerMessagePacket;
+import io.titan.net.packet.out.SetPlayerOptionPacket;
+import io.titan.net.packet.out.SetPlayerSlotPacket;
+import io.titan.net.packet.out.SetPrivacyOptionPacket;
+import io.titan.net.packet.out.SetRunEnergyPacket;
+import io.titan.net.packet.out.SetSpecialAmountPacket;
+import io.titan.net.packet.out.SetWidgetConfigPacket;
 
 @SubscribesTo(PostLoginEvent.class)
 public final class PostLoginEventConsumer implements EventSubscriber<PostLoginEvent> {

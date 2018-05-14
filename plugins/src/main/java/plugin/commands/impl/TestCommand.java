@@ -1,11 +1,11 @@
 package plugin.commands.impl;
 
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.CommandEvent;
-import io.astraeus.game.world.Position;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.PlayerRights;
-import io.astraeus.game.world.entity.mob.player.TeleportType;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.CommandEvent;
+import io.titan.game.world.Position;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.PlayerRights;
+import io.titan.game.world.entity.mob.player.TeleportType;
 import plugin.commands.Command;
 import plugin.commands.CommandParser;
 

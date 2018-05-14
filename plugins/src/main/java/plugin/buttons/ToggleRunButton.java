@@ -1,10 +1,10 @@
 package plugin.buttons;
 
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.ButtonActionEvent;
-import io.astraeus.game.world.entity.mob.Movement;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.net.packet.out.SetWidgetConfigPacket;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.ButtonActionEvent;
+import io.titan.game.world.entity.mob.Movement;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.net.packet.out.SetWidgetConfigPacket;
 
 @SubscribesTo(ButtonActionEvent.class)
 public final class ToggleRunButton extends ButtonClick {

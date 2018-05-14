@@ -1,9 +1,9 @@
 package plugin.buttons;
 
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.impl.ButtonActionEvent;
-import io.astraeus.game.world.entity.mob.player.Player;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.impl.ButtonActionEvent;
+import io.titan.game.world.entity.mob.player.Player;
 
 public abstract class ButtonClick implements EventSubscriber<ButtonActionEvent> {
 

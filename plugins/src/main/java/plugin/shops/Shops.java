@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.world.entity.mob.player.Player;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.world.entity.mob.player.Player;
 
 @SubscribesTo(ShopEvent.class)
 public final class Shops implements EventSubscriber<ShopEvent> {

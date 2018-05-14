@@ -5,16 +5,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.ButtonActionEvent;
-import io.astraeus.game.world.entity.Graphic;
-import io.astraeus.game.world.entity.item.Item;
-import io.astraeus.game.world.entity.mob.Animation;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.collect.Equipment;
-import io.astraeus.game.world.entity.mob.player.skill.Skill;
-import io.astraeus.net.packet.out.ServerMessagePacket;
-import io.astraeus.util.StringUtils;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.ButtonActionEvent;
+import io.titan.game.world.entity.Graphic;
+import io.titan.game.world.entity.item.Item;
+import io.titan.game.world.entity.mob.Animation;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.collect.Equipment;
+import io.titan.game.world.entity.mob.player.skill.Skill;
+import io.titan.net.packet.out.ServerMessagePacket;
+import io.titan.util.StringUtils;
 import lombok.Getter;
 
 @SubscribesTo(ButtonActionEvent.class)

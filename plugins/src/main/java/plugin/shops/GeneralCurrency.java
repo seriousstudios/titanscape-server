@@ -1,6 +1,6 @@
 package plugin.shops;
 
-import io.astraeus.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.Player;
 
 /**
  * The parent class of all currencies that provides basic functionality for any

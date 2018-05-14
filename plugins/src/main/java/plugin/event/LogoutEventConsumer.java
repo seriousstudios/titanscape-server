@@ -1,11 +1,11 @@
 package plugin.event;
 
-import io.astraeus.game.event.EventContext;
-import io.astraeus.game.event.EventSubscriber;
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.world.entity.mob.player.Player;
-import io.astraeus.game.world.entity.mob.player.event.LogoutEvent;
-import io.astraeus.net.packet.out.LogoutPlayerPacket;
+import io.titan.game.event.EventContext;
+import io.titan.game.event.EventSubscriber;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.world.entity.mob.player.Player;
+import io.titan.game.world.entity.mob.player.event.LogoutEvent;
+import io.titan.net.packet.out.LogoutPlayerPacket;
 
 @SubscribesTo(LogoutEvent.class)
 public final class LogoutEventConsumer implements EventSubscriber<LogoutEvent> {

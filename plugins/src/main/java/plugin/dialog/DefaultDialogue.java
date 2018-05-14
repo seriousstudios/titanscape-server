@@ -1,8 +1,8 @@
 package plugin.dialog;
 
-import io.astraeus.game.world.entity.mob.player.widget.dialog.Dialogue;
-import io.astraeus.game.world.entity.mob.player.widget.dialog.DialogueFactory;
-import io.astraeus.game.world.entity.mob.player.widget.dialog.Expression;
+import io.titan.game.world.entity.mob.player.widget.dialog.Dialogue;
+import io.titan.game.world.entity.mob.player.widget.dialog.DialogueFactory;
+import io.titan.game.world.entity.mob.player.widget.dialog.Expression;
 
 public final class DefaultDialogue extends Dialogue {
 	

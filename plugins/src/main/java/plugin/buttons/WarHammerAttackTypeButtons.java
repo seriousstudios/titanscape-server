@@ -1,9 +1,9 @@
 package plugin.buttons;
 
-import io.astraeus.game.event.SubscribesTo;
-import io.astraeus.game.event.impl.ButtonActionEvent;
-import io.astraeus.game.world.entity.mob.combat.def.AttackType;
-import io.astraeus.game.world.entity.mob.player.Player;
+import io.titan.game.event.SubscribesTo;
+import io.titan.game.event.impl.ButtonActionEvent;
+import io.titan.game.world.entity.mob.combat.def.AttackType;
+import io.titan.game.world.entity.mob.player.Player;
 
 @SubscribesTo(ButtonActionEvent.class)
 public final class WarHammerAttackTypeButtons extends ButtonClick {
