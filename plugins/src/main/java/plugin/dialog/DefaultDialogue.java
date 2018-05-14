@@ -14,7 +14,7 @@ public final class DefaultDialogue extends Dialogue {
 
 	@Override
 	public void sendDialogues(DialogueFactory factory) {
-        factory.sendNpcChat(npcId, "Hello!", "Welcome to Astraeus!")
+        factory.sendNpcChat(npcId, "Hello!", "Welcome to TitanScape!")
         .sendPlayerChat(Expression.HAPPY, "Well hello there stranger!")
         .sendNpcChat(Expression.HAPPY, "Enjoy your stay!", "If you see any bugs, please report them!")
         .execute();

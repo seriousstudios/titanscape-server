@@ -20,7 +20,7 @@ import io.titan.game.world.Position;
  */
 
 /**
- * The Force Movement {@link main.astraeus.game.model.entity.mob.update.UpdateBlock}. Only players
+ * The Force Movement {@link main.titan.game.model.entity.mob.update.UpdateBlock}. Only players
  * can utilise this block.
  * <p>
  * Note: This block is used to force a player to walk to a set location. The player can then perform
